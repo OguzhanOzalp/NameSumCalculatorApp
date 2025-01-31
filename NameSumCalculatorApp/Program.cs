@@ -18,6 +18,9 @@ class Program
 
         int result = NameSumCalculator.CalculateNameSum(name);
         Console.WriteLine($"The sum of the letters in \"{name}\" is: {result}");
+
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 
 }
